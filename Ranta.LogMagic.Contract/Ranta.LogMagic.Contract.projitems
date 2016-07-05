@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d822a1ff-703b-4701-9d15-8668bdfbdd54</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Ranta.LogMagic.Contract</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Client\LogServiceClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exception\FaultData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ILogService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogEventType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogEvent\LogEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogEvent\LogEventBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogEvent\LogEventHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
