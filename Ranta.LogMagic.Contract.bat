@@ -4,4 +4,6 @@ msbuild Ranta.LogMagic.Contract.Net45\Ranta.LogMagic.Contract.Net45.csproj /t:re
 
 nuget pack Ranta.LogMagic.Contract.nuspec
 
+move /y Ranta.LogMagic.Contract.*.nupkg ..\Nuget\Packages
+
 pause
